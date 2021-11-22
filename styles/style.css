@@ -39,10 +39,12 @@
   line-height: 96px;
   font-weight: bold;
   width: 730px;
+  margin: 0;
   z-index: 2;
 }
 .header__subtitle {
   position: absolute;
+  margin: 0;
   font-size: 18px;
   width: 388px;
   line-height: 25px;
@@ -68,6 +70,36 @@
   right: 0;
   bottom: 0;
   z-index: 1;
+}
+.description {
+  margin-top: 100px;
+}
+.two-columns {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+  justify-content: space-between;
+}
+.two-columns__brief {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+  width: 175px;
+}
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
 }
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
