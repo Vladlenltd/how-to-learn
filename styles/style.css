@@ -145,7 +145,62 @@
   font-weight: normal;
   margin: 20px auto;
 }
+
+.feynman {
+  position: relative;
+  display: block;
+  background-color: #f2f2f2;
+  height: 890px;
+}
+.feynman__title {
+  position: relative;
+  top: 100px;
+  margin: 100px auto 0;
+  width: 648px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  z-index: 1;
+}
+.feynman__subtitle {
+  position: relative;
+  top: 70px;
+  text-align: center;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  z-index: 1;
+}
+.feynman__link {
+  position: absolute;
+  height: 50%;
+  right: 0;
+  line-height: normal;
+  font-size: 36px;
+  font-weight: normal;
+  text-decoration: none;
+}
+.feynman__image {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 867px;
+  height: 637px;
+  z-index: 0;
+}
 /* и элемента с модификатором вида ключ-значение */
+.kaufman {
+  overflow: hidden;
+  background: #1f1f1f;
+  margin-top: 90px;
+}
+.section-title__theme_dark {
+  color: white;
+}
+.section-subtitle__theme_dark {
+  color: white;
+}
 .table__cell_theme_dark {
   width: 200px;
   color: white;
