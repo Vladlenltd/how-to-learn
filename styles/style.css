@@ -199,9 +199,8 @@ margin-top: 0;
 }
 .feynman__subtitle {
   position: relative;
-  top: 70px;
   text-align: center;
-  margin: 0;
+  margin: 70px auto 0;
   padding: 0;
   line-height: 51px;
   font-size: 36px;
@@ -249,6 +248,7 @@ margin-top: 0;
 .kaufman__triangle {
   position: absolute;
   background: url(../images/kaufman-triangle.svg);
+  background-size: cover;
   width: 877px;
   height: 877px;
   top: 0;
