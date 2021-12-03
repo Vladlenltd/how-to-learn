@@ -198,7 +198,6 @@ margin-top: 0;
   z-index: 1;
 }
 .feynman__subtitle {
-  position: relative;
   text-align: center;
   margin: 70px auto 0;
   padding: 0;
@@ -220,6 +219,8 @@ margin-top: 0;
 }
 /* и элемента с модификатором вида ключ-значение */
 .kaufman {
+  display: flex;
+  flex-direction: column;
   position: relative;
   overflow: hidden;
   background: #1f1f1f;
