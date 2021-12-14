@@ -93,6 +93,7 @@
   bottom: 0;
   z-index: 1;
 }
+/* секция description*/
 .description {
   padding-top: 100px;
 }
@@ -131,6 +132,79 @@ margin-top: 0;
   font-size: 24px;
   font-weight: bold;
 }
+/* Секция techniques*/
+.techniques {
+  padding-top: 100px;
+  width: 80%;
+  margin: 0 auto 0;
+}
+.cards {
+padding: 0;
+margin: 0 auto;
+list-style: none;
+width: 920px;
+display: flex;
+flex-wrap: wrap;
+}
+.cards__item {
+  width: 240px;
+
+}
+.cards__item:nth-child(2){
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.cards__item:nth-child(5){
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.cards__image {
+  border-radius: 50%;
+  margin: 60px 40px 43px;
+  width: 160px;
+  height: 160px;
+}
+.cards__title {
+margin: 0;
+line-height: 1.15;
+font-size: 24px;
+font-weight: bold;
+text-align: center;
+}
+.cards__description {
+  margin: 16px 0 0;
+line-height: 23px;
+font-size: 18px;
+font-weight: normal;
+text-align: center;
+}
+
+/* Секция video*/
+.video {
+  border: 1px black solid;
+  /* position: relative; */
+padding-top: 100px;
+background-color: rosybrown;
+}
+.video__iframes {
+  display: flex;
+  /*position: relative;*/
+  margin: 50px auto;
+  justify-content: center;
+  background-color: royalblue;
+}
+.video__iframe {
+  display: flex;
+}
+.video__iframe:first-of-type {
+  margin-right: 20px;
+}
+/* Секция oakley*/
+.oakley {
+  padding-top: 100px;
+background-color: #f2f2f2;
+}
+/* Секция digits*/
 .digits {
   position: relative;
   padding: 100px 0;
