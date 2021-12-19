@@ -2,6 +2,7 @@
   display: flex;
   position: relative;
   transform: translateY(50px);
+  border: none;
 }
 .video__iframe:first-of-type {
   margin-right: 20px;
