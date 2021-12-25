@@ -1,5 +1,5 @@
 .header__title {
-  position: absolute;
+  position: relative;
   left: 64px;
   font-size: 102px;
   line-height: 96px;

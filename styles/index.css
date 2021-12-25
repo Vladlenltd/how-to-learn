@@ -16,7 +16,6 @@
 /* section description */
 @import url(../blocks/description/description.css);
 @import url(../blocks/two-columns/two-columns.css);
-@import url(../blocks/description/two-columns/two-columns.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
