@@ -123,22 +123,26 @@
         <section class="video">
           <h2 class="section-title">Видео нa TED</h2>
           <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-          <div class="video__iframes">
-            <iframe
-              class="video__iframe"
-              src="https://www.youtube.com/embed/5MgBikgcWnY"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-            <iframe
-              class="video__iframe"
-              src="https://www.youtube.com/embed/arj7oStGLkU"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
+          <ul class="video__iframes">
+            <li class="video__iframes_iframe">
+              <iframe
+                class="video__iframe"
+                src="https://www.youtube.com/embed/5MgBikgcWnY"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </li>
+            <li class="video__iframes_iframe">
+              <iframe
+                class="video__iframe"
+                src="https://www.youtube.com/embed/arj7oStGLkU"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </li>
+          </ul>
         </section>
         <!--Блок oakley-->
         <section class="oakley">
@@ -158,13 +162,12 @@
             </div>
           </article>
         </section>
-
+        <!-- Блок feynman -->
         <section class="feynman">
           <h2 class="feynman__title">Метод Фейнмана</h2>
           <p class="feynman__subtitle">Выучить и не забыть</p>
           <a class="feynman__link" href="#">Подробнее &xrarr; </a>
         </section>
-
         <!-- блок digits -->
         <section class="digits">
           <h2 class="section-title">Цифры и факты</h2>
@@ -316,32 +319,40 @@
           <p class="section-subtitle">
             Больше материалов о техниках и лайфхаках обучения
           </p>
-          <div class="resources__logo-zone">
-            <a class="resources__logo" href="#"
-              ><img
-                class="resources__logo-img"
-                src="./images/logo/resources-arzamas.svg"
-                alt="Арзамас"
-            /></a>
-            <a class="resources__logo" href="#"
-              ><img
-                class="resources__logo-img"
-                src="./images/logo/resources-n1.svg"
-                alt="Н+1"
-            /></a>
-            <a class="resources__logo" href="#"
-              ><img
-                class="resources__logo-img"
-                src="./images/logo/resources-strelka.svg"
-                alt="Стрелка"
-            /></a>
-            <a class="resources__logo" href="#"
-              ><img
-                class="resources__logo-img"
-                src="./images/logo/resources-polka.svg"
-                alt="Полка"
-            /></a>
-          </div>
+          <ul class="resources__logo-zone">
+            <li>
+              <a class="resources__logo" href="#"
+                ><img
+                  class="resources__logo-img"
+                  src="./images/logo/resources-arzamas.svg"
+                  alt="Арзамас"
+              /></a>
+            </li>
+            <li>
+              <a class="resources__logo" href="#"
+                ><img
+                  class="resources__logo-img"
+                  src="./images/logo/resources-n1.svg"
+                  alt="Н+1"
+              /></a>
+            </li>
+            <li>
+              <a class="resources__logo" href="#"
+                ><img
+                  class="resources__logo-img"
+                  src="./images/logo/resources-strelka.svg"
+                  alt="Стрелка"
+              /></a>
+            </li>
+            <li>
+              <a class="resources__logo" href="#"
+                ><img
+                  class="resources__logo-img"
+                  src="./images/logo/resources-polka.svg"
+                  alt="Полка"
+              /></a>
+            </li>
+          </ul>
         </section>
       </main>
       <footer class="footer">
